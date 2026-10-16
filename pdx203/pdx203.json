@@ -1,15 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1777242483,
-      "filename": "YAAP-16-HOMEMADE-pdx203-20260427-Vanilla.zip",
+      "datetime": 1792480639,
+      "filename": "YAAP-17-HOMEMADE-pdx203-20261020-Vanilla.zip",
+      "url": "https://github.com/realahnet/Releases/releases/download/yaap-sony/YAAP-17-HOMEMADE-pdx203-20261020-Vanilla.zip",
+      "sha256url": "https://github.com/realahnet/Releases/releases/download/yaap-sony/YAAP-17-HOMEMADE-pdx203-20261020-Vanilla.zip.sha256sum",
       "payload": [
         {
-          "offset": 4076,
-          "FILE_HASH": "TASUopv2NnATsT20gog4G0SbjNTLaU0lrCbzCgNtdXc=",
-          "FILE_SIZE": "1521182216",
-          "METADATA_HASH": "AHtRKaFtMO887nEGVYAHEqiCsYFSnr88n5A/GaU6/I0=",
-          "METADATA_SIZE": "110971"
+          "offset": 4162,
+          "FILE_HASH": "ZocVfHw0+sbAQrOoVhMSsBS1HII+nxrdg7tnWjYjqfE=",
+          "FILE_SIZE": "1575252957",
+          "METADATA_HASH": "CABWaedEn9IgRQVALd5zLLKcHoNopzlNlQ/XstTOHY4=",
+          "METADATA_SIZE": "115282"
         }
       ]
     }
