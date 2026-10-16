@@ -1,35 +1,33 @@
 Rom:
-- Merged Android 17 (And all related security patches)
-- Add a shortcut for the new A17 bubbles in recents
-- Add an icon for each caffeine tile state
-- Add an icon for each AOD tile state
-- Improve QS tiles haptic feedbacks (vibrate for more changes)
-- Launcher3: Add a toggle to hide home screen contents in drawer
-- Launcher3: Add blur to home screen popup menus
-- Launcher3: Make drawer search bar follow drawer opacity
-- Settings: Reorganize gestures and system pages
-- Updated smartspace to latest pixel release
-- Updated locale picker
-- Split text to 2 lines in AOD tile
-- Removed auto-on tile dialog features (no longer needed for the new AOSP tiles)
-- Removed custom 3 button layout toggles (AOSP now has their own invert)
-- Many other small fixes and improvements we just don't recall
-- Allow >5 background tasks after >6 hours
-- Improve Google bug of ultra hdr gainmaps clipping differently depending on interpolation
-- Settings: dynamic colors in enrollment screen
-- Settings: reverse-engineered expressive QR generator
-- Settings: backported new Google icon
-- Vanilla: fix needing to reset digital assistant app every boot (longstanding bug)
-- New logos by SaintJimmy
-- Fix and harden torch power gestures no matter digital assistant capabilities (17 fixes) 
-- Fix and ensure udfps layer order is correct (17 fixes) 
-- Backport mobile data confirmation dialog
-- Fix screen recorder edit crash without any available video editors installed
+- Merge October security patches
+- Certified props update
+- Allow dimming wallpaper on dark theme
+- [Vanilla] Messaging: Add mark as read notification shortcut
+- [Vanilla] Messaging: Allow selecting multiple messages for deletion
+- [Vanilla] Messaging: Tonemap ultra hdr images before MMS sending
+- [Vanilla] Dialer: Promote in call notification to status bar incall chip
+- Launcher3: improve alignment when labels are hidden
+- Launcher3: improve icon load performance
+- [Vanilla] DeskClock: promote timer to a status bar chip + misc other updates
+- Protect against yet another discovered android VPN leak
+- Hide developer options state from apps
+- Gapps: update Google apps to 17
+- Make custom user-set fonts affect more elements
+- Fixed theme picker font apply bug
+- Fixed a possible custom vibration settings crash
+- Vanilla: fix a possible Dialer crash
+- Vanilla: update Vanadium
+- Misc
 
 Device:
-- Update blobs from 16.0.10.500
-- Improve Ultra HDR and mixed HDR viewing
-- Update display and use source built libvmmem
-- Kernel: build with clang 22 and fix some scheduler issues
-- Kernel: merge ACK
-- Kernel: implement custom lazy preemption app open and foreground task optimizations based on vendor usage
+- Update from OOS 16.0.10.600
+- Update common blobs from OP12 OOS 16.0.10.501
+- Improve fingerprint performance and post unlock performance
+- Give reclaim a chance in heavy order-0 bursts
+- Properly declare VRR, AVR, Qsync steps and support on waffle panel
+- Implement stock oplus face unlock support (weak auth)
+- Implement next-gen fusionlight light sensor correction for automatic brightness
+- Fix brightness change jank since disabling pixelworks
+- Improve multi tasking
+- Improve efficiency
+- Improve auto brightness screen correction
