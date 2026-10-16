@@ -1,15 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1777249385,
-      "filename": "YAAP-16-HOMEMADE-pdx206-20260427-GMS.zip",
+      "datetime": 1792488380,
+      "filename": "YAAP-17-HOMEMADE-pdx206-20261020-GMS.zip",
+      "url": "https://github.com/realahnet/Releases/releases/download/yaap-sony/YAAP-17-HOMEMADE-pdx206-20261020-GMS.zip",
+      "sha256url": "https://github.com/realahnet/Releases/releases/download/yaap-sony/YAAP-17-HOMEMADE-pdx206-20261020-GMS.zip.sha256sum",
       "payload": [
         {
-          "offset": 4100,
-          "FILE_HASH": "epQLENEXYRBvccDbL+lzoxz+gD6sacN7MV9BHaTQVZU=",
-          "FILE_SIZE": "1914338019",
-          "METADATA_HASH": "oJaslBpHVIFJD7cwXXv2FGt1Yg24ikSxLqgmDX7B1Zw=",
-          "METADATA_SIZE": "139062"
+          "offset": 4216,
+          "FILE_HASH": "yFxLORm5a3+chNjhRCALtm4u4NlVE0LUttvJdKUlbYo=",
+          "FILE_SIZE": "2040361560",
+          "METADATA_HASH": "1PDK2hOOkSUgNgiQvB/mk7GLkjHd3iIBYsqMT2MTbgM=",
+          "METADATA_SIZE": "147610"
         }
       ]
     }

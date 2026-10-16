@@ -1,12 +1,96 @@
 Rom:
-- Applied April security patch patches
-- Updated APNs from LOS
-- Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
+- Fix volume dialog ringer drawer in landscape
+- Set the correct default for tether offload setting
+- Implement fix for "Tiny UDP Cannon" VPN bypass
+- Fix IME getting stuck (fix from pixel)
+- Fix setting DAVx as contacts account
+- Fix multi-profile files access
+- Launcher: standardize all apps search bar height
+- Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
+- Fix PermissionController crash
+- Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank
+- Disable USAP pool to workaround high usap drain for some users
+- Update certified props
+- Support overriding display headroom for HDR from device
+- Implement an option for making navbar gesture handle invisible
+- MD3 theme files app (DocumentsUI)
+- Lindroid: halt vblanks and rendering when app is in background
+- Implement option to change notification shade opacity
+- Fix ARR power regression with a more targeted overscroll effect refresh rate fix
+- Fix circle to search with navbar handle invisible
+- Aperture: rebase and update
+- Lindroid: implement power mode support
+- OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location
+- Gapps: set CredentialManager as default password manager
+- SurfaceFlinger: always show refresh rate in overlay even when idle (removes dashes)
+- SurfaceFlinger: do not vote any refresh rate change on status bar item updates
+- SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle
+- SurfaceFlinger: minimize intermediate refresh rate switches
+- Show location indicator for coarse location requests as well as precise
+- Fix status bar burn in protection
+- Fix AOD burn in protection requiring SystemUI restart post boot (Google bug)
+- Aperture: support fixing hdr video colors on oplus devices
+- Lindroid: move to a more efficient/lower latency ASurfaceControl composer, which allows for hw overlay promotion
+  - Will need to update inside rootfs or use new rootfs for a tear-free experience
+- Vanilla: update shipped microg and companion
+- Enable app image startup cache
+- Merged Android 17 (And all related security patches)
+- Add a shortcut for the new A17 bubbles in recents
+- Add an icon for each caffeine tile state
+- Add an icon for each AOD tile state
+- Improve QS tiles haptic feedbacks (vibrate for more changes)
+- Launcher3: Add a toggle to hide home screen contents in drawer
+- Launcher3: Add blur to home screen popup menus
+- Launcher3: Make drawer search bar follow drawer opacity
+- Settings: Reorganize gestures and system pages
+- Updated smartspace to latest pixel release
+- Updated locale picker
+- Split text to 2 lines in AOD tile
+- Removed auto-on tile dialog features (no longer needed for the new AOSP tiles)
+- Removed custom 3 button layout toggles (AOSP now has their own invert)
+- Many other small fixes and improvements we just don't recall
+- VRR: bring back accidentally dropped change in 17 merge to no vote on many layers
+- Improve screen off udfps unlock consistency (partial unlocks in 17 fixed)
+- Allow >5 background tasks after >6 hours
+- Improve Google bug of ultra hdr gainmaps clipping differently depending on interpolation
+- Settings: dynamic colors in enrollment screen
+- Settings: reverse-engineered expressive QR generator
+- Settings: backported new Google icon
+- Update to and fix 17 doze/keyguard/udfps implementation:
+ - Fixes partial unlock issue
+ - Fixes first time secure app udfps unlock
+- Vanilla: fix needing to reset digital assistant app every boot (longstanding bug)
+- New logos by SaintJimmy
+- Fix and harden torch power gestures no matter digital assistant capabilities (17 fixes) 
+- Fix and ensure udfps layer order is correct (17 fixes) 
+- Fix all known udfps dimming bugs (notif, qs, pin entry all correctly in sync on keyguard now) 
+- Backport mobile data confirmation dialog
+- Fix screen recorder edit crash without any available video editors installed
+- Merge September 2026 security patches
+- Certified props update
+- Allow dimming wallpaper on dark theme
+- [Vanilla] Messaging: Add mark as read notification shortcut
+- [Vanilla] Messaging: Allow selecting multiple messages for deletion
+- [Vanilla] Messaging: Tonemap ultra hdr images before MMS sending
+- [Vanilla] Dialer: Promote in call notification to status bar incall chip
+- Launcher3: improve alignment when labels are hidden
+- Launcher3: improve icon load performance
+- [Vanilla] DeskClock: promote timer to a status bar chip + misc other updates
+- Protect against yet another discovered android VPN leak
+- Hide developer options state from apps
+- Merge October security patches
+- Gapps: update Google apps to 17
+- Make custom user-set fonts affect more elements
+- Fixed theme picker font apply bug
+- Fixed a possible custom vibration settings crash
+- Vanilla: fix a possible Dialer crash
+- Vanilla: update Vanadium
+- Update certified properties
+- Misc
 
 Device:
-- Revert "Enable VoLTE for KT carrier `45008`" (VoLTE etc. features are already enabled by default for all carriers).
-- Revert the usage of AIDL Radio Wrapper
-- Downgrade Cinema Pro to `v.1.9.A.0.7` (Newer versions cause crashes at higher fps)
-- Fixup video camera apps crashing on 4k >= 30fps
-Kernel:
-- Scheduler improvements
+- Link Dolby blobs against stock blobs to fix various issues
+- Kernel:
+    - Merge latest LineageOS upstream changes
+    - Implement Sbalance, Devfreq boost
+    - Pick a change to disable batch decode feature (imporvements for C2)
