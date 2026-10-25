@@ -1,17 +1,17 @@
 {
   "response": [
     {
-      "datetime": 1792094594,
-      "filename": "YAAP-17-HOMEMADE-giulia-20261016.zip",
-      "url": "https://index.ayushxfn.com/0:/YAAP/giulia/vanilla/YAAP-17-HOMEMADE-giulia-20261016.zip",
-      "sha256url": "https://index.ayushxfn.com/0:/YAAP/giulia/vanilla/YAAP-17-HOMEMADE-giulia-20261016.zip.sha256sum",
+      "datetime": 1792870903,
+      "filename": "YAAP-17-HOMEMADE-giulia-20261025.zip",
+      "url": "https://downloads.yaaprom.org/giulia/YAAP-17-HOMEMADE-giulia-20261025.zip",
+      "sha256url": "https://downloads.yaaprom.org/giulia/YAAP-17-HOMEMADE-giulia-20261025.zip.sha256sum",
       "payload": [
         {
           "offset": 4694,
-          "FILE_HASH": "UD/9q1jbLxbGqGyeRCxyl/Y07HXc8VsVcglIjT2XXOs=",
-          "FILE_SIZE": "3536135375",
-          "METADATA_HASH": "BXrc8xv3g/b3WSWyEKL7N8Z6HIql4WZPYOPWIF/me88=",
-          "METADATA_SIZE": "174594"
+          "FILE_HASH": "8BGmKgG21KcnB10gSOK6x0DVGip2ANTdUdpuyS+ZfUQ=",
+          "FILE_SIZE": "3711677142",
+          "METADATA_HASH": "B4rmWCOmsrJmezyJG5BY6Mt+CSWe1HopO7zzN29tgh0=",
+          "METADATA_SIZE": "182000"
         }
       ]
     }

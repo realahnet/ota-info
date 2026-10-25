@@ -1,33 +1,16 @@
 Rom:
-- Merge October security patches
-- Certified props update
-- Allow dimming wallpaper on dark theme
-- [Vanilla] Messaging: Add mark as read notification shortcut
-- [Vanilla] Messaging: Allow selecting multiple messages for deletion
-- [Vanilla] Messaging: Tonemap ultra hdr images before MMS sending
-- [Vanilla] Dialer: Promote in call notification to status bar incall chip
-- Launcher3: improve alignment when labels are hidden
-- Launcher3: improve icon load performance
-- [Vanilla] DeskClock: promote timer to a status bar chip + misc other updates
-- Protect against yet another discovered android VPN leak
-- Hide developer options state from apps
-- Gapps: update Google apps to 17
-- Make custom user-set fonts affect more elements
-- Fixed theme picker font apply bug
-- Fixed a possible custom vibration settings crash
-- Vanilla: fix a possible Dialer crash
-- Vanilla: update Vanadium
-- Misc
+- Fix cutoff battery text in quick settings
 
 Device:
-- Update from OOS 16.0.10.600
-- Update common blobs from OP12 OOS 16.0.10.501
-- Improve fingerprint performance and post unlock performance
-- Give reclaim a chance in heavy order-0 bursts
-- Properly declare VRR, AVR, Qsync steps and support on waffle panel
-- Implement stock oplus face unlock support (weak auth)
-- Implement next-gen fusionlight light sensor correction for automatic brightness
-- Fix brightness change jank since disabling pixelworks
-- Improve multi tasking
-- Improve efficiency
-- Improve auto brightness screen correction
+- Fix haptics in OnePlus camera
+- Fix possible auto brightness ping-pong
+- Migrate to an open source fingerprint hal:
+  - **Must re enroll fingerprint due to template changes**
+  - Improves performance and reliability considerably
+  - Dropped many more proprietary bits (like oplus touch) which were only used by old proprietary fingerprint hal
+  - Uses more AOSP fingerprint functionality for reduced latency
+- Add an open source reimplementation of oplus touch:
+  - Fixes legacy screen off touchscreen gestures
+  - Note: new open source fingerprint implementation still does not use it
+- Kernel: merge android common kernel
+- Misc
