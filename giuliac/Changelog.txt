@@ -1,16 +1,33 @@
 Rom:
-- Fix cutoff battery text in quick settings
+- Fix a possible Wallpaper Dim crash
+- Fix a possible settings crash
+- Merge November security patches
+- Vanilla: app updates
+- Use Canvas for editing images opposed to old Gallery2 editor
+- Enable ambient aod support (no remaining bugs)
+- Use m3e fonts on keyguard
+- Qcom 10bit HEIC support
+- Display settings: add color temperature and saturation sliders
+- Fix smartspace unified layout when a notification appears
+- Launcher: fix widget padding
+- Settings: fixup preference order under sound page
+- Bugfix: fix the expanded volume panel after November ASB
+- Bugfix: fix fingerprint dim application to correctly match brightness
 
 Device:
-- Fix haptics in OnePlus camera
-- Fix possible auto brightness ping-pong
-- Migrate to an open source fingerprint hal:
-  - **Must re enroll fingerprint due to template changes**
-  - Improves performance and reliability considerably
-  - Dropped many more proprietary bits (like oplus touch) which were only used by old proprietary fingerprint hal
-  - Uses more AOSP fingerprint functionality for reduced latency
-- Add an open source reimplementation of oplus touch:
-  - Fixes legacy screen off touchscreen gestures
-  - Note: new open source fingerprint implementation still does not use it
-- Kernel: merge android common kernel
-- Misc
+- Tune Haptics:
+    - Remove all profiles except Stock (default, soft)
+    - Refine haptics in stock default and soft profiles 
+- Switch to threaded vulkan renderer
+- Kernel: fix two possible crashes
+- Improve fingerprint performance and fix a few bugs
+- Switch to open source audio:
+    - Fully functional OPREC for mic processing
+    - Uses stock configs now
+    - Has speaker protection fully implemented
+- Open source charger hal
+- Open source OplusSensors hal
+- Fix fingerprint color mode differing
+- Improve perceived brightness with lockscreen fingerprint usage
+- Fix touchpanel showing up as a game controller
+- Fix fingerprint not responding in 3rd party apps sometimes
